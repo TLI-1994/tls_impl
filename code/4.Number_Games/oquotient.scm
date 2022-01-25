@@ -1,4 +1,4 @@
-(load "add1.scm")
+(load "oadd1.scm")
 (load "o<.scm")
 (load "o-.scm")
 
@@ -6,4 +6,4 @@
   (lambda (n m)
     (cond 
       ((o< n m) 0)
-      (else (add1 (oquotient (o- n m) m))))))
+      (else (oadd1 (oquotient (o- n m) m))))))

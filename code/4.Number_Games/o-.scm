@@ -1,7 +1,7 @@
-(load "sub1.scm")
+(load "osub1.scm")
 
 (define o-
   (lambda (n m)
     (cond 
       ((zero? m) n)
-      (else (sub1 (o- n (sub1 m))))))) ; (sub1 m) is the natural recursion on m
+      (else (osub1 (o- n (osub1 m))))))) ; (osub1 m) is the natural recursion on m

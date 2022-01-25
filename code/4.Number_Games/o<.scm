@@ -1,8 +1,8 @@
-(load "sub1.scm")
+(load "osub1.scm")
 
 (define o<
   (lambda (n m)
     (cond 
       ((zero? m) #f)
       ((zero? n) #t)
-      (else (o< (sub1 n) (sub1 m))))))
+      (else (o< (osub1 n) (osub1 m))))))

@@ -7,7 +7,7 @@
 ;     (cond 
 ;       ((zero? m) (zero? n))
 ;       ((zero? n) #f)
-;       (else (o= (sub1 n) (sub1 m))))))
+;       (else (o= (osub1 n) (osub1 m))))))
 
 #| This version makes good use of o> and o< |#
 (define o=

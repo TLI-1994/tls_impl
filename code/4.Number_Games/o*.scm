@@ -4,4 +4,4 @@
   (lambda (n m)
     (cond 
       ((zero? m) 0)
-      (else (o+ n (o* n (sub1 m)))))))
+      (else (o+ n (o* n (osub1 m)))))))
