@@ -1,4 +1,5 @@
-#| rember* removes atom a from l recursively. |#
+#| rember* removes atom a from a list of S-expressions l
+recursively. |#
 (define rember*
   (lambda (a l)
     (cond 
