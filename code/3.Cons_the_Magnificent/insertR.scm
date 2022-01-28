@@ -27,6 +27,6 @@ of the first occurrence of old. |#
                         (cdr lat)))))))))
 
 ; Notes: 
-; no need to always simplify the embedded condationals. 
+; No need to always simplify the embedded condationals. 
 ; Explicit scoping might be clearer when the logic is 
 ; complicated. 
